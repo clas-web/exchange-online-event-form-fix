@@ -8,8 +8,9 @@ Plugin Name: Exchange Online Event Form Fix
 Plugin URI: https://clas-pages.uncc.edu/oat/
 Description: This plugin simply uses existing event form date and time data to creates a single datetime field.  (THIS PLUGIN SHOULD ONLY BE USED ON THE EXCHANGE ONLINE SITE.  THIS PLUGIN INCLUDES FIELD IDS FROM THE CURRENT SITE.  IF THE EXISTING EVENT FORM IS CHANGED, THIS PLUGIN MIGHT NO LONGER WORK...)
 Author: Alex Chapin
-Version: 1.0
+Version: 1.1.0
 Author URI: https://clas-pages.uncc.edu/oat/
+GitHub Plugin URI: https://github.com/clas-web/exchange-online-event-form-fix
 */
 
 add_filter( 'frm_add_entry_meta', 'exchange_event_create_datetime_field', 9999 );
